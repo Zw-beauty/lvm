@@ -1,37 +1,3 @@
-// import { createBrowserRouter, Navigate } from 'react-router-dom';
-
-// import { BasicLayout } from '@/app/layouts/BasicLayout';
-// import { DownloadCenter } from '@/features/version-manager/pages/DownloadCenter';
-// import { PythonManagePage } from '@/features/version-manager/pages/PythonManagePage';
-// import { Settings } from '@/features/version-manager/pages/Settings';
-// import { ErrorPage } from '@/pages/error';
-
-// export const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <BasicLayout />,
-//     errorElement: <ErrorPage />,
-//     children: [
-//       {
-//         index: true,
-//         element: <Navigate to="/python" />,
-//       },
-//       {
-//         path: 'python',
-//         element: <PythonManagePage />,
-//       },
-//       {
-//         path: 'settings',
-//         element: <Settings />,
-//       },
-//       {
-//         path: 'downloader',
-//         element: <DownloadCenter />,
-//       },
-//     ],
-//   },
-// ]);
-
 // src/router/index.tsx
 import { createBrowserRouter, Navigate, type RouteObject } from 'react-router-dom';
 import { BasicLayout } from '@/app/layouts/BasicLayout';
@@ -40,7 +6,6 @@ import { PythonManagePage } from '@/features/version-manager/pages/PythonManageP
 import { GoManagePage } from '@/features/version-manager/pages/Go';
 import { Settings } from '@/features/version-manager/pages/Settings';
 import { ErrorPage } from '@/pages/error';
-import { ReactNode } from 'react';
 
 // 菜单元数据类型
 interface RouteMeta {
