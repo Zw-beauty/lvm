@@ -31,9 +31,6 @@
 //   useEffect(() => {
 //     setSelectedKey(location.pathname);
 //   }, [location.pathname]);
-//   // 就是现在这个菜单是写死的，，然后这里写了路由那里要跳转也要再写一次
-//   // 然后瑞瑞的意思是看有没有什么方法让只在路由那里配置好，然后再这里引用
-//   // 直接显示，到时候如果要加新页面直接再路由那里配就好了
 //   const items = [
 //     { label: t('nav.go'), key: '/go', icon: <IconFont type="icon-golang" /> },
 //     { label: t('nav.java'), key: '/java', icon: <IconFont type="icon-java" /> },
